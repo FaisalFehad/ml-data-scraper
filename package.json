@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple LinkedIn job scraper that outputs JSONL",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.51.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.4.5"
+  }
+}
